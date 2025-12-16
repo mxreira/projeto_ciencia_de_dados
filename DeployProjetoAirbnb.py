@@ -94,4 +94,4 @@ if botao:
 
     preco = modelo.predict(valores_x)
 
-    st.write(f'O preço da diária do imóvel é estimado em: R$ {preco[0]}')
+    st.success(f'O preço da diária do imóvel é estimado em: R$ {preco[0]}')
